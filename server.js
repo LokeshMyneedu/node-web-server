@@ -32,7 +32,8 @@ next();
 });
 
 app.use((req,res,next)=>{
-    res.render('maintainence.hbs');
+   // res.render('maintainence.hbs');
+    next();
 });
 
 app.use(express.static(__dirname+'/public')); //Middle where//order is important thats why we moved these under
