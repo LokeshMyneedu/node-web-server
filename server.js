@@ -60,5 +60,5 @@ app.get('/bad',(req,res)=>{
 
 
 app.listen(port,()=>{ //listening to check app is running or not
-console.log(`server is up on port ${3000}`);
+console.log(`server is up on port ${port}`);
 });
